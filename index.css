@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+         background: url(pexels-jeremy-bishop-2923595.jpg) no-repeat center center fixed;
+         background-size: cover;
+}
+.container{
+    /* border: 10px solid red; */
+    color: rgb(122, 165, 179);
+    position: absolute;
+    top: 88px;
+     left: 40%;
+    }
+    .container h1{
+        font-size: 30px;
+        display: inline-block;
+    border-bottom:5px solid rgb(99, 135, 165) ;
+    margin-bottom: 18px;
+    padding: 11px 2px;
+}
+.box{
+    width: 100%;
+   border-bottom: 2px solid rgb(99, 135, 165) ;
+}
+.box input{
+    width: 75%;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 2px -3px ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 8px 6px;
+}
+.box i{
+      width: 5px;
+      text-align: center;
+      padding: 0 12px;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 18px 0 ;
+    padding: 5px;
+    border-radius: 5px;
+    
+        font-size: 16px;
+        background: transparent;
+}
+.btn:hover{
+    color: rgb(246, 248, 250);
+        background: rgb(99, 135, 165)
+}
